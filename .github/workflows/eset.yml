@@ -2,7 +2,7 @@ name: Generator
 
 on:
   workflow_dispatch:
-    inputs:
+    inputs: 
       account:
         description: 'Number of Accounts to be generated (default = 0)'
         required: false
